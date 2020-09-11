@@ -26,14 +26,6 @@ public class Post {
 		this.likes = likes;
 	}
 
-	public static SimpleDateFormat getSdf() {
-		return sdf;
-	}
-
-	public static void setSdf(SimpleDateFormat sdf) {
-		Post.sdf = sdf;
-	}
-
 	public Date getMoment() {
 		return moment;
 	}
